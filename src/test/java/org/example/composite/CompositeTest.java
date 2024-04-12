@@ -26,7 +26,7 @@ public class CompositeTest {
         Item item = new Item("Item name 0");
         Item subItem1 = new Item("Item name 1");
         Item subItem2 = new Item("Item name 2");
-        List<Item> expected = new ArrayList<Item>(
+        List<Item> expected = new ArrayList<>(
                 Arrays.asList(
                         new Item("Item name 1"),
                         new Item("Item name 2")

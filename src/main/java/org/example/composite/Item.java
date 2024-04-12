@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class Item implements Composite<Item> {
     private final String name;
-    private final ArrayList<Item> children = new ArrayList<Item>();
+    private final ArrayList<Item> children = new ArrayList<>();
 
     public Item(String name) {
         this.name = name;
